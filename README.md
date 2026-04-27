@@ -3,7 +3,7 @@
 **AI & Data Science Student | ML Enthusiast | Quantum Computing Explorer**
 
 🎓 B.Tech – Artificial Intelligence & Data Science
-💼 Intern @ [Company Name]
+
 📍 Tamil Nadu, India
 
 ---
