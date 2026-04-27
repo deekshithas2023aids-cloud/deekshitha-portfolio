@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Deekshitha Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<!-- HOME -->
+<section id="home" class="active">
+  <h1>DEEKSHITHA S</h1>
+  <p>
+    I'm a third-year undergraduate student at Rajalakshmi Institute of
+    Technology, currently pursuing a Bachelor's degree in Artificial
+    Intelligence and Data Science. With a strong foundation in data
+    analysis, machine learning,  AI technologies, and quantum algorithms. I am passionate about
+    applying these skills to real-world data science challenges.. I’m eager to
+    contribute to innovative data-driven solutions and continually deepen
+    my understanding of the data science landscape.
+  </p>
+  <!-- NAVBAR -->
+<div class="navbar">
+  <button onclick="showSection('home')">🏠 Home</button>
+  <button onclick="showSection('projects')">🚀 Projects</button>
+  <button onclick="showSection('skills')">🧠 Skills</button>
+  <button onclick="showSection('contact')">📞 Contact</button>
+</div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div class="project" onclick="toggleDetails(this)">
+    <h3>Business Chatbot</h3>
+    <div class="details">
+      <p>Developed an intelligent business chatbot designed to automate customer 
+        interactions and provide instant responses to user queries. The chatbot 
+        uses Natural Language Processing (NLP) techniques to understand user 
+        input and generate relevant responses.</p>
+      <pre>
+        Technologies Used:
+        Python, NLP, Machine Learning
+  </pre>
+      <p>Output: Responds to customer queries automatically</p>
+      <p>
+       For more info:
+       <a href="https://github.com/deekshithas2023aids-cloud/business-chatbot" target="_blank">
+       View Code on GitHub
+      </a>
+      </p>
+    </div>
+  </div>
+
+  <div class="project" onclick="toggleDetails(this)">
+    <h3>E-Commerce Website</h3>
+    <div class="details">
+      <p>Full-stack shopping website.</p>
+      <pre>HTML, CSS, JS, Node.js</pre>
+      <p>Output: Users can browse and purchase products</p>
+      <p>
+      For more info:
+      <a href="https://github.com/deekshithas2023aids-cloud/deekshithas2023aids-cloud-digitalcart-03" target="_blank">
+      View Code on GitHub
+      </a>
+      </p>
+    </div>
+  </div>
+
+  <div class="project" onclick="toggleDetails(this)">
+    <h3>Vehicle Classification</h3>
+    <div class="details">
+      <p>Deep learning model for vehicle detection.</p>
+      <pre>CNN model using TensorFlow</pre>
+      <p>Output: Classifies vehicle types from images</p>
+      <p>
+      For more info:
+      <a href="https://github.com/deekshithas2023aids-cloud/deekshithas2023aids-cloud-vehicle-classification" target="_blank">
+       View Code on GitHub
+      </a>
+      </p>
+    </div>
+  </div>
+  <div class="project" onclick="toggleDetails(this)">
+    <h4>Skin Lesion Classifier Using QML(EfficientNet)</h4>
+    <div class="details">
+      <p>Developed an advanced skin lesion classification system using a hybrid  Quantum Machine Learning (QML) approach integrated with EfficientNet 
+        for high-accuracy medical image analysis.</p>
+      <pre>MODEL:EfficientNet + Variational Quantum Circuit (QML)</pre>
+      <p>Output: Accurately classifies skin lesions (benign/malignant) </p>
+      <p>
+      For more info:
+      <a href="https://github.com/deekshithas2023aids-cloud/qml_skin_lesion_classifier_using_efficientnetb0" target="_blank">
+       View Code on GitHub
+      </a>
+      </p>
+    </div>
+  </div>
+
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <h2>Skills</h2>
+  <ul>
+    <li>Machine Learning</li>
+    <li>Deep Learning</li>
+    <li>Quantum Machine Learning</li>
+    <li>MongoDB</li>
+    <li>Data Analysis</li>
+  </ul>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:deekshitha.s.2023.aids@ritchennai.edu.in">Mail Me</a></p>
+  <p>Phone: +91 9600050477</p>
+  <p>
+    LinkedIn:
+    <a href="http://linkedin.com/in/deekshitha-s-133674366", target="_blank">
+      View Profile
+    </a>
+  </p>
+  <p>Github:
+    <a href ="https://github.com/deekshithas2023aids-cloud/portfolio",target="_blank">
+      View profile
+    </a>
+  </p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
